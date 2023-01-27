@@ -1,0 +1,11 @@
+appscript==1.2.2
+asgiref==3.6.0
+Django==4.1.5
+django-rest-framework==0.1.0
+djangorestframework==3.14.0
+doc2pdf==0.2.0
+docx2pdf==0.1.8
+lxml==4.9.2
+pytz==2022.7.1
+sqlparse==0.4.3
+tqdm==4.64.1
