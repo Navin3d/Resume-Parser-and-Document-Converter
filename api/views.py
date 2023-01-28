@@ -28,8 +28,10 @@ def write_data_into_file(directory, data):
 def conv_docx(data):
     directory = DOCX_DIR + data.name
     output_file = data.name.split(".docx")
-    converted = f"{OUT_DIR}{output_file[0]}-conv"
+    converted = f"{OUT_DIR}{output_file[0]}-conv.pdf"
     write_data_into_file(directory, data)
+    # file_creation = open(converted, "wb")
+    # file_creation.close()
     convert(directory, converted)
 
 

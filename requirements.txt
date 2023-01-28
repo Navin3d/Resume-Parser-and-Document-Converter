@@ -1,6 +1,5 @@
-appscript==1.2.2
-asgiref==3.6.0
-Django==4.1.5
+asgiref==3.4.1
+Django==3.2.16
 django-rest-framework==0.1.0
 djangorestframework==3.14.0
 doc2pdf==0.2.0
